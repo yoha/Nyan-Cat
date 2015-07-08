@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65E7C6211B4D644D00B1C358 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C6201B4D644D00B1C358 /* AppDelegate.swift */; };
+		65E7C6231B4D644D00B1C358 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C6221B4D644D00B1C358 /* ViewController.swift */; };
+		65E7C6261B4D644D00B1C358 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E7C6241B4D644D00B1C358 /* Main.storyboard */; };
+		65E7C6281B4D644D00B1C358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E7C6271B4D644D00B1C358 /* Assets.xcassets */; };
+		65E7C62B1B4D644D00B1C358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E7C6291B4D644D00B1C358 /* LaunchScreen.storyboard */; };
+		65E7C6361B4D644D00B1C358 /* Nyan_CatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C6351B4D644D00B1C358 /* Nyan_CatTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65E7C6321B4D644D00B1C358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65E7C6151B4D644D00B1C358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65E7C61C1B4D644D00B1C358;
+			remoteInfo = "Nyan Cat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65E7C61D1B4D644D00B1C358 /* Nyan Cat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nyan Cat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E7C6201B4D644D00B1C358 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65E7C6221B4D644D00B1C358 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65E7C6251B4D644D00B1C358 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65E7C6271B4D644D00B1C358 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65E7C62A1B4D644D00B1C358 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65E7C62C1B4D644D00B1C358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E7C6311B4D644D00B1C358 /* Nyan CatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nyan CatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E7C6351B4D644D00B1C358 /* Nyan_CatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nyan_CatTests.swift; sourceTree = "<group>"; };
+		65E7C6371B4D644D00B1C358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65E7C61A1B4D644D00B1C358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E7C62E1B4D644D00B1C358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65E7C6141B4D644D00B1C358 = {
+			isa = PBXGroup;
+			children = (
+				65E7C61F1B4D644D00B1C358 /* Nyan Cat */,
+				65E7C6341B4D644D00B1C358 /* Nyan CatTests */,
+				65E7C61E1B4D644D00B1C358 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65E7C61E1B4D644D00B1C358 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65E7C61D1B4D644D00B1C358 /* Nyan Cat.app */,
+				65E7C6311B4D644D00B1C358 /* Nyan CatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65E7C61F1B4D644D00B1C358 /* Nyan Cat */ = {
+			isa = PBXGroup;
+			children = (
+				65E7C6201B4D644D00B1C358 /* AppDelegate.swift */,
+				65E7C6221B4D644D00B1C358 /* ViewController.swift */,
+				65E7C6241B4D644D00B1C358 /* Main.storyboard */,
+				65E7C6271B4D644D00B1C358 /* Assets.xcassets */,
+				65E7C6291B4D644D00B1C358 /* LaunchScreen.storyboard */,
+				65E7C62C1B4D644D00B1C358 /* Info.plist */,
+			);
+			path = "Nyan Cat";
+			sourceTree = "<group>";
+		};
+		65E7C6341B4D644D00B1C358 /* Nyan CatTests */ = {
+			isa = PBXGroup;
+			children = (
+				65E7C6351B4D644D00B1C358 /* Nyan_CatTests.swift */,
+				65E7C6371B4D644D00B1C358 /* Info.plist */,
+			);
+			path = "Nyan CatTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65E7C61C1B4D644D00B1C358 /* Nyan Cat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E7C63A1B4D644D00B1C358 /* Build configuration list for PBXNativeTarget "Nyan Cat" */;
+			buildPhases = (
+				65E7C6191B4D644D00B1C358 /* Sources */,
+				65E7C61A1B4D644D00B1C358 /* Frameworks */,
+				65E7C61B1B4D644D00B1C358 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nyan Cat";
+			productName = "Nyan Cat";
+			productReference = 65E7C61D1B4D644D00B1C358 /* Nyan Cat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65E7C6301B4D644D00B1C358 /* Nyan CatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E7C63D1B4D644D00B1C358 /* Build configuration list for PBXNativeTarget "Nyan CatTests" */;
+			buildPhases = (
+				65E7C62D1B4D644D00B1C358 /* Sources */,
+				65E7C62E1B4D644D00B1C358 /* Frameworks */,
+				65E7C62F1B4D644D00B1C358 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65E7C6331B4D644D00B1C358 /* PBXTargetDependency */,
+			);
+			name = "Nyan CatTests";
+			productName = "Nyan CatTests";
+			productReference = 65E7C6311B4D644D00B1C358 /* Nyan CatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65E7C6151B4D644D00B1C358 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Yohannes Wijaya";
+				TargetAttributes = {
+					65E7C61C1B4D644D00B1C358 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					65E7C6301B4D644D00B1C358 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 65E7C61C1B4D644D00B1C358;
+					};
+				};
+			};
+			buildConfigurationList = 65E7C6181B4D644D00B1C358 /* Build configuration list for PBXProject "Nyan Cat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65E7C6141B4D644D00B1C358;
+			productRefGroup = 65E7C61E1B4D644D00B1C358 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65E7C61C1B4D644D00B1C358 /* Nyan Cat */,
+				65E7C6301B4D644D00B1C358 /* Nyan CatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65E7C61B1B4D644D00B1C358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E7C62B1B4D644D00B1C358 /* LaunchScreen.storyboard in Resources */,
+				65E7C6281B4D644D00B1C358 /* Assets.xcassets in Resources */,
+				65E7C6261B4D644D00B1C358 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E7C62F1B4D644D00B1C358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65E7C6191B4D644D00B1C358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E7C6231B4D644D00B1C358 /* ViewController.swift in Sources */,
+				65E7C6211B4D644D00B1C358 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E7C62D1B4D644D00B1C358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E7C6361B4D644D00B1C358 /* Nyan_CatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65E7C6331B4D644D00B1C358 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65E7C61C1B4D644D00B1C358 /* Nyan Cat */;
+			targetProxy = 65E7C6321B4D644D00B1C358 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65E7C6241B4D644D00B1C358 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65E7C6251B4D644D00B1C358 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65E7C6291B4D644D00B1C358 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65E7C62A1B4D644D00B1C358 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65E7C6381B4D644D00B1C358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65E7C6391B4D644D00B1C358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65E7C63B1B4D644D00B1C358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nyan Cat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.Nyan-Cat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65E7C63C1B4D644D00B1C358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nyan Cat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.Nyan-Cat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		65E7C63E1B4D644D00B1C358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Nyan CatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.Nyan-CatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nyan Cat.app/Nyan Cat";
+			};
+			name = Debug;
+		};
+		65E7C63F1B4D644D00B1C358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Nyan CatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.Nyan-CatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nyan Cat.app/Nyan Cat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65E7C6181B4D644D00B1C358 /* Build configuration list for PBXProject "Nyan Cat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E7C6381B4D644D00B1C358 /* Debug */,
+				65E7C6391B4D644D00B1C358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E7C63A1B4D644D00B1C358 /* Build configuration list for PBXNativeTarget "Nyan Cat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E7C63B1B4D644D00B1C358 /* Debug */,
+				65E7C63C1B4D644D00B1C358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65E7C63D1B4D644D00B1C358 /* Build configuration list for PBXNativeTarget "Nyan CatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E7C63E1B4D644D00B1C358 /* Debug */,
+				65E7C63F1B4D644D00B1C358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65E7C6151B4D644D00B1C358 /* Project object */;
+}
