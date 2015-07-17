@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="15A215h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Avenir.ttc">
+            <string>Avenir-Roman</string>
+            <string>Avenir-Light</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Nyan_Cat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +23,130 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="nyanCat_frame1" translatesAutoresizingMaskIntoConstraints="NO" id="nRi-bM-A0C">
+                                <rect key="frame" x="2" y="20" width="402" height="402"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="nRi-bM-A0C" secondAttribute="height" multiplier="1:1" id="1nU-fe-59l"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1nU-fe-59l"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="1nU-fe-59l"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZP-zw-NDe">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="253" id="H7I-YT-wU3"/>
+                                    <constraint firstAttribute="height" constant="33" id="HBa-6X-qLZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="35"/>
+                                <state key="normal" title="Animate Me!!"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="H7I-YT-wU3"/>
+                                        <exclude reference="HBa-6X-qLZ"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="H7I-YT-wU3"/>
+                                        <include reference="HBa-6X-qLZ"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="animateGifButton:" destination="BYZ-38-t0r" eventType="touchDown" id="R7p-bk-fvz"/>
+                                    <action selector="repeatAnimateGifButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ijr-oz-n6o"/>
+                                    <action selector="stopGifButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9nh-kY-nU0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thanks for keeping him healthy!! :)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yfr-Gf-hZp">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Mwb-lI-hlO"/>
+                                    <constraint firstAttribute="width" constant="235" id="heF-bU-NPM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Mwb-lI-hlO"/>
+                                        <exclude reference="heF-bU-NPM"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="Mwb-lI-hlO"/>
+                                        <include reference="heF-bU-NPM"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yfr-Gf-hZp" secondAttribute="bottom" id="9AY-PK-0ea">
+                                <variation key="heightClass=regular" constant="5"/>
+                            </constraint>
+                            <constraint firstItem="yfr-Gf-hZp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dj6-zX-fDs"/>
+                            <constraint firstItem="jZP-zw-NDe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HLK-y8-Fd1"/>
+                            <constraint firstItem="nRi-bM-A0C" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="M0K-NQ-x06"/>
+                            <constraint firstItem="jZP-zw-NDe" firstAttribute="top" secondItem="nRi-bM-A0C" secondAttribute="bottom" constant="33" id="MHh-OA-yN5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nRi-bM-A0C" secondAttribute="trailing" constant="-20" id="lKA-1e-Qba"/>
+                            <constraint firstItem="nRi-bM-A0C" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-18" id="tQD-Af-s9m"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="jZP-zw-NDe"/>
+                                <exclude reference="yfr-Gf-hZp"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="M0K-NQ-x06"/>
+                                <exclude reference="lKA-1e-Qba"/>
+                                <exclude reference="tQD-Af-s9m"/>
+                                <exclude reference="9AY-PK-0ea"/>
+                                <exclude reference="Dj6-zX-fDs"/>
+                                <exclude reference="HLK-y8-Fd1"/>
+                                <exclude reference="MHh-OA-yN5"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="jZP-zw-NDe"/>
+                                <include reference="yfr-Gf-hZp"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="M0K-NQ-x06"/>
+                                <include reference="lKA-1e-Qba"/>
+                                <include reference="tQD-Af-s9m"/>
+                                <include reference="9AY-PK-0ea"/>
+                                <include reference="Dj6-zX-fDs"/>
+                                <include reference="HLK-y8-Fd1"/>
+                                <include reference="MHh-OA-yN5"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="footnoteLabel" destination="yfr-Gf-hZp" id="bjr-j2-yv1"/>
+                        <outlet property="gifImageView" destination="nRi-bM-A0C" id="Cc6-gU-bna"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="305" y="429"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="nyanCat_frame1" width="200" height="200"/>
+    </resources>
 </document>
